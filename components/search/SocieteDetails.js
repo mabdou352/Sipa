@@ -4,6 +4,11 @@ import React from 'react'
 import { StyleSheet, View, Text } from 'react-native'
 
 class SocieteDetail extends React.Component {
+  
+  _displayDetailForSociete = (id) => {
+    console.log("Display film with id " + item.id)
+  }
+
   render() {
     return (
       <View style={styles.main_container}>

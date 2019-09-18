@@ -5,7 +5,7 @@ import { StyleSheet, View, Text, TextInput, Button, FlatList  } from 'react-nati
 
 import data from '../../constants/SipaDataAll'
 
-// import SocieteItem from '../../components/search/SocieteItem'
+import SocieteItem from '../../components/search/SocieteItem'
 
 
 class Search extends React.Component {
@@ -40,12 +40,17 @@ class Search extends React.Component {
     return (
       <View >
         <TextInput style={styles.textinput}  placeholder='Societe' onChangeText={(text) => this._searchTextInputChanged(text)} />
-        <Button style={styles.button}  title='Rechercher' onPress={() => this._loadSociete()}/>
+        <Button style={styles.button}  title='Rechercher' 
+        onPress={() => this._loadSociete()}
+        onSubmitEditing={() => this._loadSociete()}
+        
+        
+        />
        
         {/* <FlatList
         data={this.state.dataSource}
         keyExtractor={(item) => item.id.toString()}
-        renderItem={({item}) => <SocieteItem dataSource={item}/>}
+        renderItem={({item}) => <SocieteItem dataSource={item} displayDetailForSociete={this._displayDetailForSociete}/>}
         /> */}
 
       </View>
