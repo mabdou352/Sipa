@@ -6,11 +6,13 @@ import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
 import PresseScreen from '../screens/PresseScreen';
 import RadioScreen from '../screens/RadioScreen';
+import DetailScreen from '../screens/DetailScreen';
+
 
 const config = Platform.select({
   web: { headerMode: 'screen' },
   default: {},
-});
+});  
 
 const HomeStack = createStackNavigator(
   {
@@ -18,7 +20,6 @@ const HomeStack = createStackNavigator(
   },
   config
 );
-
 HomeStack.navigationOptions = {
   tabBarLabel: 'Accueil',
   tabBarIcon: ({ focused }) => (
@@ -28,8 +29,16 @@ HomeStack.navigationOptions = {
     />
   ),
 };
-
 HomeStack.path = '';
+
+
+const DetailStack = createStackNavigator(
+  {
+   Detail: DetailScreen
+  },
+  config
+);
+
 
 const PresseStack = createStackNavigator(
   {
@@ -70,5 +79,13 @@ const tabNavigator = createBottomTabNavigator({
 });
 
 tabNavigator.path = '';
+
+
+const SocieteDetails  = createStackNavigator(
+  {
+    SocieteDetail: SocieteDetails
+  }
+);
+
 
 export default tabNavigator;
