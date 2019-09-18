@@ -61,16 +61,18 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop:10,
-    color:'red',
+    backgroundColor:'red',
   },  
   textinput: {
     marginLeft: 2,
     marginRight: 2,
-    height: 50,
-    borderColor: '#000000',
+    marginBottom: 5,
+    height: 40,
+    borderColor: 'grey',
     borderWidth: 1,
     paddingLeft: 5,
     fontSize:18,
-    minWidth:250
+    minWidth:250,
+    borderRadius: 20
   }
 })
