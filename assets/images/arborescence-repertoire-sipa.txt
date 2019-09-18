@@ -1,0 +1,244 @@
+Arborescence repertoire IMAGES
+
+
+IMAGES/
+	GEN/
+	photo-lieu-defaut.jpg
+	ident-dirigeant-defaut.jpg
+	
+
+	SIPA/
+
+		ADDITI-PRECOM/
+		logo-500x172_additi.jpg
+
+			AFFIOUEST/
+			logo-500x172_affiouest.jpg
+			
+			DANS-NOS-COEURS/
+			logo-500x172_dans-nos-coeurs.jpg
+
+
+			HAPPY-PROD/
+			logo-500x172_happy-prod.jpg
+
+
+			MEDIALEX/
+			logo-500x172_medialex.jpg
+
+			OUEST-FRANCE-MULTIMEDIA/
+			logo-500x172_ouest-france-auto.jpg
+			logo-500x172_ouest-france-emploi.jpg
+			logo-500x172_ouest-france-immo.jpg
+			logo-500x172_ouest-france-multimedia.jpg
+
+
+			PRECOM/
+			logo-500x172_pre-contact.jpg
+
+
+			REGIE-RADIOS-REGIONS/
+			logo-500x172_regie-radios-regions.jpg
+
+
+			Z-COMME/
+			logo-500x172_z-comme.jpg
+
+
+		INFOMER/
+		logo-500x172_infomer.jpg
+		
+			CHASSE-MAREE/
+			logo-500x172_chasse-maree.jpg
+						
+			CULTURES-MARINES/
+			logo-500x172_culture-marine.jpg
+
+			LE-MARIN/
+			logo-500x172_le-marin.jpg
+
+			MARINES-EDITIONS/
+			logo-500x172_marine-edition.jpg
+
+			PRODUITS-DE-LA-MER/
+			logo-500x172_produits-de-la-mer.jpg
+		
+
+		LES-JOURNAUX-DE-LOIRE/
+		logo-500x172_courrier-de-l-ouest.jpg
+		logo-500x172_le-maine-libre.jpg
+		logo-500x172_presse-ocean.jpg
+
+
+
+		OUEST-FRANCE/
+		logo-500x172_OF_Noir.jpg
+		logo-500x172_OF_Rouge.jpg
+		logo-500x172_OF_Blanc-transparent.png
+				
+
+		PUBLIHEBDOS/
+			AQUITAINE/
+			logo-500x172_le-republicain-lot-et-garonne.jpg
+			logo-500x172_le-republicain-sud-gironde.jpg
+			
+			AUVERGNE-RHONE-ALPES/
+			logo-500x172_la-voix-du-cantal.jpg
+			
+			BRETAGNE/
+			logo-500x172_cote-brest.jpg
+			logo-500x172_cote-morlaix.jpg
+			logo-500x172_cote-quimper.jpg
+			logo-500x172_la-chronique-republicaine.jpg
+			logo-500x172_la-gazette-du-centre-morbihan.jpg
+			logo-500x172_la-presse-d-armor.jpg
+			logo-500x172_l-echo-de-l-armor-et-de-l-argoat.jpg
+			logo-500x172_le-courrier-du-progres.jpg
+			logo-500x172_le-courrier-independant.jpg
+			logo-500x172_le-journal-de-vitre.jpg
+			logo-500x172_le-pays-malouin.jpg
+			logo-500x172_le-penthievre.jpg
+			logo-500x172_le-petit-bleu.jpg
+			logo-500x172_le-ploermelais.jpg
+			logo-500x172_le-tregor.jpg
+			logo-500x172_pontivy-journal.jpg
+
+			CENTRE-VAL-DE-LOIRE/
+			logo-500x172_l-action-republicaine.jpg
+
+			FRANCHE-COMTE/
+			logo-500x172_la-voix-du-jura.jpg
+
+			HAUT-DE-FRANCE/
+			logo-500x172_la-croix-du-nord.jpg
+			logo-500x172_l-eclaireur-vimeu.jpg
+			logo-500x172_le-journal-d-abbeville.jpg
+
+			ILE-DE-FRANCE/
+			logo-500x172_cote-val-d-oise.jpg
+			logo-500x172_cote-yvelines.jpg
+			logo-500x172_la-gazette-du-val-d-oise.jpg
+			logo-500x172_la-marne.jpg
+			logo-500x172_la-republique-de-seine-et-marne.jpg
+			logo-500x172_l-echo-le-regional.jpg
+			logo-500x172_le-courrier-de-mantes.jpg
+			logo-500x172_le-courrier-des-yvelines.jpg
+			logo-500x172_le-pays-briard.jpg
+			logo-500x172_toutes-les-nouvelles.jpg
+
+			NORMANDIE/
+			logo-500x172_cote-caen.jpg
+			logo-500x172_cote-caux.jpg
+			logo-500x172_cote-manche.jpg
+			logo-500x172_cote-mancheiberte-le-bonhomme-libre.jpg
+			logo-500x172_cote-rouen.jpg
+			logo-500x172_eure-infos.jpg
+			logo-500x172_la-depeche.jpg
+			logo-500x172_la-gazette-de-la-manche.jpg
+			logo-500x172_la-presse-de-la-manche.jpg
+			logo-500x172_la-renaissance.jpg
+			logo-500x172_la-voix-le-bocage.jpg
+			logo-500x172_le-bulletin-de-l-arrondissement-de-rouen.jpg
+			logo-500x172_l-eclaireur-la-depeche.jpg
+			logo-500x172_le-courrier-de-l-eure.jpg
+			logo-500x172_le-democrate-vervonnais.jpg
+			logo-500x172_le-journal-d-elbeuf.jpg
+			logo-500x172_le-journal-de-l-orne.jpg
+			logo-500x172_le-pays-d-auge.jpg
+			logo-500x172_le-perche.jpg
+			logo-500x172_le-publicateur.jpg
+			logo-500x172_le-reveil_normand.jpg
+			logo-500x172_les-informations-dieppoises.jpg
+			logo-500x172_les-nouvelles-de-falaise.jpg
+			logo-500x172_l-eveil-de-lisieux.jpg
+			logo-500x172_l-eveil-de-pont-audemer.jpg
+			logo-500x172_l-eveil-normand.jpg
+			logo-500x172_l-impartial.jpg
+			logo-500x172_l-informateur.jpg
+			logo-500x172_l-orne-combattante.jpg
+			logo-500x172_l-orne-hebdo.jpg
+			
+			OCCITANIE/
+			logo-500x172_cote-toulouse.jpg
+			logo-500x172_la-vie-quercinoise.jpg
+			logo-500x172_la-voix-du-midi-lauragais.jpg
+			logo-500x172_voix-du-midi-toulouse.jpg
+
+			PAYS-DE-LOIRE/
+			logo-500x172_cote-la-fleche.jpg
+			logo-500x172_journal-du-pays-yonnais.jpg
+			logo-500x172_l-echo-de-la-presqu-ile.jpg
+			logo-500x172_l-echo-sarthois.jpg
+			logo-500x172_l-eclaireur-chateaubriand.jpg
+			logo-500x172_le-courrier-du-pays-de-retz.jpg
+			logo-500x172_le-courrier-vendeen.jpg
+			logo-500x172_le-petit-courrier.jpg
+			logo-500x172_les-alpes-mancelles.jpg
+			logo-500x172_les-nouvelles-l-echo-flechois.jpg
+			logo-500x172_les-sables-vendee-journal.jpg
+			logo-500x172_l-hebdo-de-sevre-et-maine.jpg
+			logo-500x172_mayenne-infos.jpg
+
+
+		logo-500x172_publihebdos.jpg
+		logo-500x172_apei.jpg	
+			
+			
+
+		SOFIOUEST/
+			SPIR-COMMUNICATION/
+
+				REGICOM/
+					IDENT/
+					regicom-ident-dirigeant1-christian-kpakpo.jpg
+					regicom-ident-dirigeant1-danah-goguillon.jpg
+					regicom-ident-dirigeant1-fabian-houdeville.jpg
+					regicom-ident-dirigeant1-frederic-cras.jpg
+					regicom-ident-dirigeant1-jean-christophe-buron.jpg
+					regicom-ident-dirigeant1-katia-moysan.jpg
+					regicom-ident-dirigeant1-lionel-vercruysse.jp.jpg
+					regicom-ident-dirigeant1-raphael-cassot.jpg
+					regicom-ident-dirigeant1-roland-claudin.jpg
+					regicom-ident-dirigeant1-sergio-teixeira.jpg
+					regicom-ident-dirigeant1-stephane-drocourt.jpg
+
+				logo-500x172_regicom.jpg
+				regicom-aix-en-provence_photo-lieu.jpg
+				regicom-beauvais_photo-lieu.jpg
+				regicom-besancon_photo-lieu.jpg
+				regicom-brives-la-gaillarde_photo-lieu.jpg
+				regicom-cannes_photo-lieu.jpg
+				regicom-creteil_photo-lieu.jpg
+				regicom-lille_photo-lieu.jpg
+				regicom-lyon_photo-lieu.jpg
+				regicom-montpellier_photo-lieu.jpg
+				regicom-rennes_photo-lieu.jpg
+				regicom-rouen_photo-lieu.jpg
+				regicom-saint-die_photo-lieu.jpg
+				regicom-saint-etienne_photo-lieu.jpg
+				regicom-saint-germain-en-laye_photo-lieu.jpg
+				regicom-toulouse_photo-lieu.jpg
+
+		
+
+			logo-500x172_spir-communication.jpg
+			logo-500x172_voiles-et-voiliers.jpg
+		
+		logo-500x172_agorize.jpg
+		logo-500x172_anaxago.jpg
+		logo-500x172_bruce.jpg
+		logo-500x172_clever-connect.jpg
+		logo-500x172_inbox.jpg
+		logo-500x172_klaxoon.jpg
+		logo-500x172_ocus.jpg
+		logo-500x172_oxatis.jpg
+		logo-500x172_phenix.jpg
+		logo-500x172_sofiouest.jpg
+		
+
+
+
+
+
+
+

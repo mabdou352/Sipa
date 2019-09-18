@@ -1,50 +1,62 @@
-import React, {Fragment} from 'react';
+import { AppLoading } from 'expo';
+import { Asset } from 'expo-asset';
+import * as Font from 'expo-font';
+import React, { useState } from 'react';
+import { Platform, StatusBar, StyleSheet, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 
+import AppNavigator from './navigation/AppNavigator';
 
-import {
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-  Dimensions,
-} from 'react-native';
+export default function App(props) {
+  const [isLoadingComplete, setLoadingComplete] = useState(false);
 
-import {
-  Header,
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
+  if (!isLoadingComplete && !props.skipLoadingScreen) {
+    return (
+      <AppLoading
+        startAsync={loadResourcesAsync}
+        onError={handleLoadingError}
+        onFinish={() => handleFinishLoading(setLoadingComplete)}
+      />
+    );
+  } else {
+    return (
+      <View style={styles.container}>
+        {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
+        <AppNavigator />
+      </View>
+    );
+  }
+}
 
-const App = () => {
-  return (
-    <Fragment>
-      <StatusBar barStyle="light-content" />
-      <View style={styles.main}><Text style={styles.bonjour}>Bonjour</Text></View>
-    </Fragment>
-  );
-};
+async function loadResourcesAsync() {
+  await Promise.all([
+    Asset.loadAsync([
+      require('./assets/images/robot-dev.png'),
+      require('./assets/images/robot-prod.png'),
+    ]),
+    Font.loadAsync({
+      // This is the font that we are using for our tab bar
+      ...Ionicons.font,
+      // We include SpaceMono because we use it in HomeScreen.js. Feel free to
+      // remove this if you are not using it in your app
+      'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf'),
+    }),
+  ]);
+}
 
-const {width, height} = Dimensions.get('window');
+function handleLoadingError(error) {
+  // In this case, you might want to report the error to your error reporting
+  // service, for example Sentry
+  console.warn(error);
+}
+
+function handleFinishLoading(setLoadingComplete) {
+  setLoadingComplete(true);
+}
 
 const styles = StyleSheet.create({
-  main: {
+  container: {
     flex: 1,
-    flexDirection: "column",
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: width,
-    height: height,
-    padding: 20,
-    backgroundColor: "#E4E3E1",
-},
-  bonjour: {
-    flex: 1,
-    flexDirection: 'row',
-    fontSize: 40,
-    textAlign: 'center',
-    color: '#666666',
-  }
+    backgroundColor: '#fff',
+  },
 });
-
-export default App;
