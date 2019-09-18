@@ -4,7 +4,7 @@ import React from 'react'
 import { StyleSheet, View, FlatList, Text, ActivityIndicator  } from 'react-native'
 import SocieteItem from '../../components/search/SocieteItem'
 
-import data from '../../constants/SipaDataAll'
+import data from '../../constants/SipaPresse'
 
 export default class ListePresse extends React.Component {
 constructor(props) {

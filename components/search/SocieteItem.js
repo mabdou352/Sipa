@@ -39,6 +39,7 @@ class SocieteItem extends React.Component {
 
 const styles = StyleSheet.create({
   main_container: {
+    padding: 25
     // height: 190,
     // flexDirection: 'row'
   },
@@ -46,11 +47,12 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 166,
     backgroundColor: 'gray',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
   },
   content_container: {
     flex: 1,
-    margin: 5
+    margin: 5,
+    paddingHorizontal: 5
   },
   header_container: {
     flexDirection: 'row',
